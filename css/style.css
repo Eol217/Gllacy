@@ -1,0 +1,607 @@
+body {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  box-sizing: border-box;
+  color: #fff;
+  background: #97aca1 url(../img/main/bg-shine.png) no-repeat 50% 0px;
+  vertical-align: top;
+}
+.main-header::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+.container {
+  position: relative;
+  width: 1146px;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 0px;
+}
+.logo {
+  width: 154px;
+  float: left;
+  margin-left: -6px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.main-menu {
+  float: left;
+  padding-top: 20px;
+  margin-left: 28px;
+  min-width: 385px;
+}
+.main-menu ul {
+  padding:0;
+  margin:0;
+}
+.main-menu li {
+  margin: 0;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 16px;
+  vertical-align: middle;
+  margin-right: 28px;
+  border-bottom: 1px solid;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.menu-catalog {
+  display: none;
+}
+
+.invisible {
+  display: none;
+}
+
+.header-icons {
+  float: right;
+  min-width: 267px;
+  padding-top: 15px;
+  text-align: right;
+}
+.header-icons .search {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  border:none;
+  background: rgba(255, 255, 255, 0.2) url(../img/main/search.png) no-repeat 8px 8px;
+  display: inline-block;  
+  vertical-align: top;
+  margin-right: 9px;
+}
+.header-icons .open-search {
+
+}
+.header-icons .user-block {
+  vertical-align: top;  
+  display: inline-block;  
+  width: 34px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.2) url(../img/main/enter.png) no-repeat 16px 6px;
+  border-radius: 15px;
+  padding-top: 8px;
+  padding-left: 43px;
+  padding-right: 16px;
+  margin-right: 9px;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 500;
+}
+.header-icons .user-basket {  
+  vertical-align: top;
+  display: inline-block;
+  width: 82px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.2) url(../img/main/basket.png) no-repeat 16px 6px;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 500;
+  padding-top: 8px;
+  padding-right: 35px;
+}
+.header-icons .pull.user-basket {
+  background-image: none; 
+}
+.timetable {
+  width: 1146px;
+  margin: 0 auto;
+  position: relative;
+  top: -10px;
+  right: 0;
+}
+.timetable .time {
+  margin-top: 0;
+  margin-bottom: 4px;
+  min-width: 267px;
+  text-align: right;
+  font-size:14px;
+  line-height: 16px;
+}
+.timetable .phone {  
+  min-width: 267px;
+  text-align: right;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 24px;
+}
+.slider {
+  margin-top: 0;
+  padding-top: 0;
+}
+.slider div[class^="page-"]:not(:first-of-type) {
+  display: none;
+
+}
+.slider img {
+  position: absolute;
+}
+.slider .main-ice-pink {
+  top:45px;
+  right: 250px;
+  z-index: -2;  
+}
+.slider .main-ice-caramel {
+  top:0;
+  left:250px;
+  z-index: -1;
+}
+.slider h1 {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+  text-align: center;
+  padding-top: 265px;
+  margin:0;
+}
+.slider .button {
+  background: -webkit-linear-gradient(90deg, #e74a35 0%, #f26843 100%);
+  background: -moz-linear-gradient(90deg, #e74a35 0%, #f26843 100%);
+  background: -o-linear-gradient(90deg, #e74a35 0%, #f26843 100%);
+  background: -ms-linear-gradient(90deg, #e74a35 0%, #f26843 100%);
+  background: linear-gradient(0deg, #e74a35 0%, #f26843 100%);
+  box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+  width: 280px;
+  height: 54px;
+  text-align: center;
+  border-radius: 35px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:30px;
+  padding-top: 10px;
+}
+.slider .button a {
+  font-size: 32px;
+  line-height: 42px;  
+  text-shadow: 0px 2px 5px rgba(160, 32, 11, 0.76);
+}
+.razz, .choco {
+  vertical-align: top;
+  width: 524px;
+  min-height: 179px;
+  display: inline-block;
+  position: relative;
+  box-shadow: 20px;
+  border-radius: 15px;
+  padding: 25px 18px;
+  margin-top: 40px;  
+}
+.razz {
+  background: rgb(153, 0, 31) url(../img/main/bg-razz.jpg) no-repeat;
+  margin-right: 26px;
+}
+.choco {
+  background: rgb(153, 0, 31) url(../img/main/bg-choco.jpg) no-repeat;
+}
+.razz h2, .choco h2 {
+  margin: 0;
+  font-size: 35px;
+  line-height: 27px;
+  text-align: left;
+}
+.razz p, .choco p {
+  margin:0;
+  margin-top: 22px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+}
+.button-choco, .button-razz{
+  background: -webkit-linear-gradient(90deg, #e74a35 0%, #f26843 100%);
+  background: -moz-linear-gradient(90deg, #e74a35 0%, #f26843 100%);
+  background: -o-linear-gradient(90deg, #e74a35 0%, #f26843 100%);
+  background: -ms-linear-gradient(90deg, #e74a35 0%, #f26843 100%);
+  background: linear-gradient(0deg, #e74a35 0%, #f26843 100%);
+  box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+  border-radius: 25px;
+  text-align: center;
+  position: absolute;
+  padding-top: 13px;
+  padding-bottom: 7px;
+  bottom: 22px;
+  right: 20px;
+}
+.button-razz {
+  width: 165px;
+}
+.button-choco {
+  width: 189px;
+}
+.button-choco a,
+.button-razz a{
+  font-size: 18px;
+  line-height: 18px;
+}
+.ice-group {
+  margin:0;
+  padding: 0;
+  margin-top: 40px;
+
+}
+.ice-cream {
+  vertical-align: top;
+  margin:0;
+  padding: 0;
+  width: 267px;
+  height: 325px;
+  margin-right: 26px;  
+  display: inline-block;
+  position: relative;
+} 
+.ice-cream .img-ice {
+  border-radius: 50%;
+}
+.ice-cream .img-hit {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ice-cream .price {
+  font-size: 45px;
+  line-height: 45px;
+  text-align: left;
+  position: absolute;
+  top: 210px;
+  left: 0;
+}
+.ice-cream .price .n { 
+  margin-right: 3px; 
+  display: inline-block;
+  vertical-align: bottom;
+}
+.ice-cream .price img {
+  margin-right: 3px; 
+  margin-bottom: 3px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.ice-cream .kg {
+  display: inline-block;
+  font-size: 30px;
+  line-height: 30px;
+}
+.ice-cream .description {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+.ice-cream:nth-child(4n) {
+  margin-right: 0px;  
+}
+.about-shop {
+  padding: 20px;
+  margin-top: 40px;
+  background: rgb(237, 223, 197) url(../img/main/bg-about-gllacy.png) ;
+  border-radius: 15px;  
+  text-align: right;
+}
+.about-shop span {
+  color: #323232;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  display: block;
+  text-align: left;
+}
+.about-shop .row:first-of-type {
+  margin-top: 24px;
+  margin-bottom: 18px;
+}
+.about-shop .row p:first-of-type {
+  margin-right: 83px;
+}
+.about-shop p[class^="about-"] {
+  display:inline-block;
+  position: relative;
+  margin: 0;  
+  width: 483px;
+  color: #323232;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+.about-shop p[class^="about-"]::before {
+  position: absolute;
+  top:-15px;
+  left: -57px;
+}
+.about-shop .about-ice::before {
+  content: url(../img/main/ice.png);
+}
+.about-shop .about-cow::before {
+  content: url(../img/main/cow.png);
+}
+.about-shop .about-natural::before {
+  content: url(../img/main/natural.png);  
+}
+.about-shop .about-temp::before {
+  content: url(../img/main/temp.png);
+}
+.blog, .delivery{
+  vertical-align: top;
+  width: 520px;
+  min-height: 180px;
+  display: inline-block;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 15px; 
+}
+.blog {
+  background: url(../img/main/bg-blog.jpg) no-repeat;
+  margin-right: 26px;
+}
+.blog span {
+  font-size: 16px;
+  color: #323232;
+  font-weight: 500;
+  text-align: left;
+}
+.blog a {
+  font-size: 24px;
+  color: #323232;
+  line-height: 30px;
+  text-align: left;
+  text-decoration: underline;
+}
+.bg-border {
+  background: rgb(248, 247, 244) url(../img/main/bg-border.png);
+  display: inline-block;
+  width: 560px;
+  height: 220px;
+  margin-top: 40px;
+  border-radius: 15px;
+}
+.delivery {
+  min-height: 170px;
+  width: 510px;
+  background: rgb(248, 247, 244);
+  margin: 5px;  
+}
+.delivery p{
+  color: #5a5a5a;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+.delivery form {
+  margin-top:37px;
+}
+.delivery input {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 358px;
+  height: 44px;
+  border: 1px solid rgba(178, 178, 178, 52);
+  border-radius: 5px;
+  color: #999999;
+  font-size: 16px;
+  font-weight: 400;  
+  text-align: left;
+  margin-right: 10px;  
+  padding-left: 10px;
+}
+
+.delivery button {
+  background: -webkit-linear-gradient(90deg, #e74a35 0%, #f26843 100%);
+  background: -moz-linear-gradient(90deg, #e74a35 0%, #f26843 100%);
+  background: -o-linear-gradient(90deg, #e74a35 0%, #f26843 100%);
+  background: -ms-linear-gradient(90deg, #e74a35 0%, #f26843 100%);
+  background: linear-gradient(0deg, #e74a35 0%, #f26843 100%);
+  box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+  width: 129px;
+  height: 44px;
+  text-align: center;
+  color: #fefefe;
+  font-size: 18px;  
+  line-height: 24px;
+  border-radius: 20px;
+  border: none;
+}
+.map {
+  height: 430px;
+  margin-top: 40px;
+}
+.contacts {
+  float: right;
+  margin-top: 60px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.98);
+  width: 252px;
+  min-height: 245px;
+  padding: 28px 25px;
+}
+.contacts p {
+  color: #323232;
+  font-size: 14px;  
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin: 0;
+}
+.contacts .phone {
+  margin-top: 17px;
+  line-height: 23px;
+}
+.contacts .bold {
+  color: #323232;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+}
+.contacts .form {
+  background: -webkit-linear-gradient(90deg, #e74a35 0%, #f26843 100%);
+  background: -moz-linear-gradient(90deg, #e74a35 0%, #f26843 100%);
+  background: -o-linear-gradient(90deg, #e74a35 0%, #f26843 100%);
+  background: -ms-linear-gradient(90deg, #e74a35 0%, #f26843 100%);
+  background: linear-gradient(0deg, #e74a35 0%, #f26843 100%);
+  box-shadow: 0px 2px 2px 0px rgba(172, 16, 0, 0.64);
+  width: 252px;
+  height: 44px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 24px;
+  color: #fefefe;
+}
+.contacts .connection {
+  display: none;
+}
+footer {  
+  vertical-align: top;
+  min-height: 103px;
+}
+.icons {
+  float:left;
+  min-width: 267px;
+  margin-top: 36px;  
+}
+.icons .icon {
+  display: inline-block;
+  margin-right: 10px;  
+}
+footer .menu {
+  display: inline-block;
+  margin-left: 130px;
+  padding-top: 36px; 
+  width: 340px;
+}
+footer .menu-left, footer .menu-right {
+  display: inline-block;
+  margin-right: 25px;
+}
+footer .menu a {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  text-decoration: underline;
+}
+footer .menu span {
+  font-weight: 700;
+}
+.htmlacademy {
+  margin-top: 20px;
+  float:right;
+  min-width: 190px;
+  text-align: left;  
+}
+.htmlacademy span {
+  color: #fefefe;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+/*Стили для каталога*/
+
+.breadcrumbs {
+  float: left;
+  min-width: 267px;
+}
+.breadcrumbs a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+  margin-right: 20px;
+  vertical-align: bottom; 
+}
+.breadcrumbs a:not(:last-of-type) {
+  text-decoration: underline;
+}
+.h1-catalog {
+  display: block;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: left;
+  margin-top: 10px;
+}
+.filter {
+  margin-top: 26px;
+  width: 879px;
+}
+.filter span {
+  margin-left: 15px;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+}
+.filter div[class^="filter-"] {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 37px;
+  border-radius: 20px;
+}
+.catalog {
+  margin-top: 40px;
+}
+.ice-cream.orange {
+
+}
+.ice-cream.chocolate {
+
+}
+.ice-cream.strawberry {
+
+}
+.catalog button {
+  display: none;
+}
+.pagination {
+  margin-top: 75px;
+  margin-bottom: 30px;
+  text-align: right;
+  vertical-align: top;
+}
+.pagination .number {
+  display: inline-block;
+  width: 27px;
+  height: 27px;  
+}
+.pagination a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.pagination .number.one {
+  background: #fff;  
+  border-radius: 50%;
+  color:color: #323232;  
+  text-align: center;
+}
+.pagination .number.one a {
+  color: #323232;
+}
