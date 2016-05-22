@@ -37,9 +37,17 @@
     </header>
     <main>
       <section class="breadcrumbs">
-        <a href="index.html">Главная</a>
-        <a href="#">Каталог</a>
-        <a href="#">Сливочное</a>
+        <ul>
+          <li>
+            <a href="index.html">Главная</a>
+          </li>
+          <li>
+            <a href="#">Каталог</a>
+          </li>
+          <li>
+            Сливочное
+          </li>
+        </ul>
       </section>
       <section class="filter">
         <h2>Сливочное мороженое</h2>
@@ -48,6 +56,22 @@
           <select name="sort" id="sort">
             <option>по популярности</option>
           </select>
+          <label for="price">Цена: 100 руб. - 500 руб.</label>
+          <input type="range" name="price" id="price">
+          <label>Жирность:
+            <input type="radio" name="fat-content" value="1">0%</input>
+            <input type="radio" name="fat-content" value="2" checked>до 10%</input>
+            <input type="radio" name="fat-content" value="3">до 30%</input>
+            <input type="radio" name="fat-content" value="4">выше 30%</input>
+          </label>
+          <label>Наполнители:
+            <input type="checkbox" name="chococolate" checked>шоколадные</input>
+            <input type="checkbox" name="shugar" checked>сахарные присыпки</input>
+            <input type="checkbox" name="fruit">фрукты</input>
+            <input type="checkbox" name="syrup">сиропы</input>
+            <input type="checkbox" name="jam">джемы</input>
+          </label>
+          <a class="btn" href="#">Применить</a>
         </form>
       </section>
       <section class="catalog">
@@ -101,13 +125,29 @@
         </div>
       </section>
       <nav class="catalog-nav">
-        <a class="btn prev" href="#">prev</a>
-        <a class="btn" href="#">1</a>
-        <a class="btn" href="#">2</a>
-        <a class="btn" href="#">3</a>
-        <a class="btn" href="#">4</a>
-        <a class="btn" href="#">5</a>
-        <a class="btn next" href="#">next</a>
+        <ul>
+          <li>
+            <a class="btn prev" href="#">prev</a>
+          </li>
+          <li>
+            1
+          </li>
+          <li>
+            <a class="btn" href="#">2</a>
+          </li>
+          <li>
+            <a class="btn" href="#">3</a>
+          </li>
+          <li>
+            <a class="btn" href="#">4</a>
+          </li>
+          <li>
+            <a class="btn" href="#">5</a>
+          </li>
+          <li>
+            <a class="btn next" href="#">next</a>
+          </li>
+        </ul>
       </nav>
     </main>
     <footer class="main-footer">
