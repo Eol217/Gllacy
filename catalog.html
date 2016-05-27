@@ -57,20 +57,18 @@
             <option>по популярности</option>
           </select>
           <label for="price">Цена: 100 руб. - 500 руб.</label>
-          <input type="range" name="price" id="price">
-          <label>Жирность:
-            <input type="radio" name="fat-content" value="1">0%</input>
-            <input type="radio" name="fat-content" value="2" checked>до 10%</input>
-            <input type="radio" name="fat-content" value="3">до 30%</input>
-            <input type="radio" name="fat-content" value="4">выше 30%</input>
-          </label>
-          <label>Наполнители:
-            <input type="checkbox" name="chococolate" checked>шоколадные</input>
-            <input type="checkbox" name="shugar" checked>сахарные присыпки</input>
-            <input type="checkbox" name="fruit">фрукты</input>
-            <input type="checkbox" name="syrup">сиропы</input>
-            <input type="checkbox" name="jam">джемы</input>
-          </label>
+          <input type="range" name="price" id="price" min="100" max="500">
+          <span>Жирность:</span>
+            <label><input type="radio" name="fat-content" value="1">0%</label>
+            <label><input type="radio" name="fat-content" value="2" checked>до 10%</label>
+            <label><input type="radio" name="fat-content" value="3">до 30%</label>
+            <label><input type="radio" name="fat-content" value="4">выше 30%</label>
+          <span>Наполнители:</span>
+            <label><input type="checkbox" name="chococolate" checked>шоколадные</label>
+            <label><input type="checkbox" name="shugar" checked>сахарные присыпки</label>
+            <label><input type="checkbox" name="fruit">фрукты</label>
+            <label><input type="checkbox" name="syrup">сиропы</label>
+            <label><input type="checkbox" name="jam">джемы</label>
           <a class="btn" href="#">Применить</a>
         </form>
       </section>
