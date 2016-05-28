@@ -1,0 +1,109 @@
+html,
+body {
+  min-width: 1122px;
+  min-height: 1750px;
+  margin: 0;
+  padding: 0;
+  background: red;
+}
+
+// body {
+//   background: #000000 url(../img/barbershop-index.jpg) no-repeat 50% 3px;
+//   background-size: 1122px auto;
+// }
+
+img {
+  border: 1px solid black; /*для ориентира, потом удалить*/
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 860px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border: 1px solid black; /*для ориентира, потом удалить*/
+}
+
+.index-logo {
+  float: left;
+}
+
+.main-navigation {
+  float: left;
+  width: 350px;
+}
+
+.user-block {
+  float: right;
+  width: 300px;
+  border: 1px solid black; /*для ориентира, потом удалить*/
+}
+
+.features-item {
+  float: left;
+  width: 420px;
+  margin-bottom: 40px;
+
+  border: 1px solid black; /*для ориентира, потом удалить*/
+}
+
+.features-item:last-child {
+  float: right;
+}
+
+.catalog {
+  font-size: 0;
+}
+
+.catalog-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.catalog-item:last-child {
+  margin-right: 0;
+}
+
+.about {
+  padding: 25px 20px;
+  margin-bottom: 40px;
+  font-size: 0;
+
+  border: 1px solid black; /*для ориентира, потом удалить*/
+}
+
+.about p {
+  display: inline-block;
+  width: 345px;
+  margin-left: 60px;
+  font-size: 16px;
+}
+
+.main-footer {
+  padding: 20px 0;
+}
+
+.footer-social  {
+  float: left;
+  width: 200px;
+}
+
+.footer-nav {
+  float: left;
+  width: 420px;
+}
+
+.footer-copyright{
+  float: right;
+  width: 200px;
+  border: 1px solid black; /*для ориентира, потом удалить*/
+}
