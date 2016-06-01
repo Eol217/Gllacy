@@ -1,19 +1,18 @@
 html,
 body {
-  min-width: 1122px;
-  min-height: 1750px;
-  margin: 0;
-  padding: 0;
-  background: red;
+  min-width: 900px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Roboto Regular", "Arial", sans-serif;
+  color: #ffffff;
+
+  background: #849d8f;
 }
 
-// body {
-//   background: #000000 url(../img/barbershop-index.jpg) no-repeat 50% 3px;
-//   background-size: 1122px auto;
-// }
-
 img {
-  border: 1px solid black; /*для ориентира, потом удалить*/
+  // border: 1px solid black; /*для ориентира, потом удалить*/
 }
 
 .clearfix::after {
@@ -31,17 +30,55 @@ img {
 
 .index-logo {
   float: left;
+
+  margin-top: 10px;
+  margin-left: -5px;
+
+  width: 154px;
+  height: 64px;
 }
 
 .main-navigation {
   float: left;
-  width: 350px;
+  width: 440px;
+}
+
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  font-size: 0;
+}
+
+.main-navigation li {
+  display: inline-block;
+
+  font-size: 16px;
+  line-height: 20px;
+  vertical-align: top;
+}
+
+.main-navigation a {
+  display: block;
+  padding-left: 30px;
+  padding-top: 30px;
+
+  color: #ffffff;
+  text-decoration: none;
+  // border-bottom: 1px solid rgba(255, 255, 255, 0.4); /*продумать, как сделать подчеркивание*/
 }
 
 .user-block {
   float: right;
-  width: 300px;
-  border: 1px solid black; /*для ориентира, потом удалить*/
+  max-width: 300px;
+}
+
+.header-contacts {
+  float: right;
+  width: 170px;
+
+  text-align: right;
 }
 
 .features-item {
@@ -69,7 +106,7 @@ img {
   font-size: 16px;
 }
 
-.catalog-item:last-child {
+.catalog-item:nth-child(4n) {
   margin-right: 0;
 }
 
@@ -102,8 +139,44 @@ img {
   width: 420px;
 }
 
+.footer-nav-left,
+.footer-nav-right {
+  float: left; 
+}
+
 .footer-copyright{
   float: right;
   width: 200px;
   border: 1px solid black; /*для ориентира, потом удалить*/
+}
+
+
+/*catalog.html*/
+.filter {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.filter form {
+  margin-top: 30px;
+  font-size: 0;
+}
+
+.filter fieldset {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.pagination {
+  float: right; 
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-size: 0;
+}
+
+.pagination li {
+  display: inline-block;
+  margin: 0 14px;
+  font-size: 16px;
 }

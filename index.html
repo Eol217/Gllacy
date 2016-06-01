@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
@@ -30,7 +31,7 @@
           <a class="btn chart" href="#">Пусто</a>
       </div>
       <div class="header-contacts">
-        с 10 до 20, ежедневно<br>
+        <span>с 10 до 20, ежедневно</span><br>
         8 812 450-25-25
       </div>
     </header>
@@ -134,21 +135,27 @@
         <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
         <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
       </section>
-      <section class="footer-nav">
-        <ul>   
-          <li>
-            <a href="#">Для поставщиков</a>
-          </li>
-          <li>
-            <a href="#">О производстве</a>
-          </li>
-          <li>
-            <a href="#">Наши документы</a>
-          </li>
-          <li>
-            <a href="#">Экологические стандарты</a>
-          </li>
-        </ul>
+      <section class="footer-nav clearfix">
+        <div class="footer-nav-left">
+          <ul>   
+            <li>
+              <a href="#">Для поставщиков</a>
+            </li>
+            <li>
+              <a href="#">О производстве</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-nav-right">
+          <ul>   
+            <li>
+              <a href="#">Наши документы</a>
+            </li>
+            <li>
+              <a href="#">Экологические стандарты</a>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="footer-copyright">
         <div class="academy-logo">
