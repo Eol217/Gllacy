@@ -8,7 +8,7 @@ body {
   font-family: "Roboto Regular", "Arial", sans-serif;
   color: #ffffff;
 
-  background: #849d8f;
+  background: #849d8f url("../img/slider-1.png") no-repeat 50% 0%;
 }
 
 img {
@@ -21,11 +21,33 @@ img {
   clear: both;
 }
 
+.btn {
+  display: inline-block;
+  // margin-right: 16px;
+  padding: 10px 22px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Roboto Regular", "Arial", sans-serif;
+  vertical-align: top;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+
+  background-color: #f06742;
+  background-image: linear-gradient(#e74a35, #f26843);
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
 .container {
   width: 860px;
   margin: 0 auto;
   padding: 0 20px;
-  border: 1px solid black; /*для ориентира, потом удалить*/
+  // border: 1px solid black; /*для ориентира, потом удалить*/
 }
 
 .index-logo {
@@ -54,14 +76,16 @@ img {
 .main-navigation li {
   display: inline-block;
 
+  font-weight: 600;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 1.3;
+
   vertical-align: top;
 }
 
 .main-navigation a {
   display: block;
-  padding-left: 30px;
+  padding-left: 27px;
   padding-top: 30px;
 
   color: #ffffff;
@@ -69,16 +93,122 @@ img {
   // border-bottom: 1px solid rgba(255, 255, 255, 0.4); /*продумать, как сделать подчеркивание*/
 }
 
+.main-navigation a:first-child {
+  padding-left: 30px;
+}
+
 .user-block {
   float: right;
-  max-width: 300px;
+
+  margin-top: 23px;
+  max-width: 270px;
+
+  font-size: 0;
+}
+
+.user-block .btn {
+  position: relative;
+  margin-left: 10px;
+  padding: 7px 0;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+
+  background-color: rgba(255, 255, 255, 0.2);
+  background-image: none;
+}
+
+.user-block .search {
+  box-sizing: border-box;
+  width: 32px;
+  height: 32px;
+  
+  padding: 0;
+  margin-left: 0;
+
+  font-size: 0;
+  border-radius: 50%;
+}
+
+.user-block .btn:before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 17px;
+
+  width: 20px;
+  height: 20px;
+
+  background: url("../img/sprite.png") no-repeat;
+  background-position: -5px -5px;
+}
+
+.user-block .search:before {
+  left: 7px;
+}
+
+.user-block .login {
+  padding-right: 15px;
+  padding-left: 45px;
+}
+
+.user-block .login:before {
+  background-position: -5px -32px;
+}
+
+.user-block .chart {
+  padding-right: 35px;
+  padding-left: 45px;
+}
+
+.user-block .chart:before {
+  background-position: -5px -61px;
 }
 
 .header-contacts {
   float: right;
+  clear: both;
+
   width: 170px;
 
+  font-size: 14px;
+  line-height: 1.3;
   text-align: right;
+}
+
+.header-contacts span {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.slider {
+  margin-top: 270px;
+
+  text-align: center;
+}
+
+.slider p {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-size: 60px;
+  line-height: 60.35px;
+  font-weight: 700;
+}
+
+.slider .btn {
+  margin-top: 35px;
+  margin-bottom: 40px;
+  padding: 12px 40px;
+
+  font-size: 32px;
+  line-height: 1.3;
+  border-radius: 40px; 
+  box-shadow: 0 2px 2px rgba(172, 16, 0, 0.64);
+  background-color: black;
+  background-image: linear-gradient(#e74a35, #f26843);
 }
 
 .features-item {
