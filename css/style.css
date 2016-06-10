@@ -385,6 +385,7 @@ img {
 
 .features-item .btn {
   float: right;
+  padding-right: 23px;
   padding-bottom: 12px;
 }
 
