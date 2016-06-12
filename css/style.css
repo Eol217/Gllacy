@@ -72,6 +72,7 @@ img {
 
   color: #ffffff;
   background-color: #f06742;
+  background-image: -webkit-linear-gradient(bottom, #e74a35, #f26843);
   background-image: linear-gradient(to top, #e74a35, #f26843);
   border: none;
   border-radius: 22px;
@@ -430,7 +431,10 @@ img {
   font-size: 45px;
   line-height: 1.3;
   font-family: "robotobold", "Arial", sans-serif;
-  text-shadow: 1px 1px 3px rgba(49, 50, 53, 0.5); 
+  // text-shadow: 1px 1px 3px rgba(49, 50, 53, 0.5); 
+
+  -webkit-filter: drop-shadow(1px 1px 3px rgba(49, 50, 53, 0.5));
+  filter: drop-shadow(1px 1px 3px rgba(49, 50, 53, 0.5));
 }
 
 .catalog-item pre::before {
@@ -443,6 +447,8 @@ img {
   height: 37px;
 
   background: url("../img/rub.svg") no-repeat 50% 0%;
+  // -webkit-filter: drop-shadow(1px 1px 3px rgba(49, 50, 53, 0.5));
+  // filter: drop-shadow(1px 1px 3px rgba(49, 50, 53, 0.5));
 }
 
 
@@ -464,7 +470,7 @@ img {
   color: #ffffff;
   text-decoration: none;
 
-  // border-bottom: 1px solid rgba(255, 255, 255, 0.4)
+  // border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 .catalog-item:nth-child(4n) {
@@ -602,8 +608,8 @@ img {
 }
 
 .subscribe input {
+  display: inline-block;
   margin-left: -2px;
-
   padding: 8px 10px 10px; 
   padding-right: 35px;
  
@@ -613,6 +619,7 @@ img {
 
   border: 1px solid #d3d3d2;
   border-radius: 3px;
+  outline: none;
 }
 
 .subscribe .btn {
@@ -636,8 +643,7 @@ img {
 
   box-sizing: border-box;
   width: 302px;
-  padding: 26px;
-  padding-top: 29px;
+  padding: 29px 26px 32px;
 
   font-size: 14px;
   line-height: 20px;
@@ -681,7 +687,9 @@ img {
 }
 
 .map-contacts .btn {
-  padding: 10px 32px;
+  box-sizing: border-box;
+  padding: 10px 30px;
+  width: 100%;
 
   font-size: 17px;
   line-height: 24.3px;
@@ -756,7 +764,7 @@ img {
   content: "";
   position: absolute;
   top: 3px;
-  left: 19px;
+  left: 18px;
 
   width: 15px;
   height: 13px;
