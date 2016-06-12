@@ -4,9 +4,6 @@
 * Студент: [Харланов Дмитрий](https://htmlacademy.ru/profile/id202785).
 * Наставник: [].
 =======
-* Студент: [Кристина Чуприна](https://up.htmlacademy.ru/htmlcss/13/user/133941).
-* Наставник: [Ирина Соколовская].
->>>>>>> refs/remotes/origin/master
 
 ---
 
