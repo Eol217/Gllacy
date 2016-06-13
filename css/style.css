@@ -609,9 +609,9 @@ img {
 
 .subscribe input {
   display: inline-block;
+  width: 207px;
   margin-left: -2px;
   padding: 8px 10px 10px; 
-  padding-right: 35px;
  
   font-size: 16px;
   line-height: 24.3px;
