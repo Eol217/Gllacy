@@ -29,12 +29,12 @@
       }
     });
 
-    chart.addEventListener('mouseover', function(event) {
+    chart.addEventListener('mouseover', function() {
       chart.innerHTML = '2 товара';
       chart.style.paddingRight = '15px';
     });
 
-    chart.addEventListener('mouseout', function(event) {
+    chart.addEventListener('mouseout', function() {
       chart.innerHTML = 'Пусто';
       chart.style.paddingRight = '33px';
     });

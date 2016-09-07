@@ -296,6 +296,7 @@ input:not([type='radio']):focus {
   position: absolute;
   top: 60px;
   left: -6px;
+  z-index: 30;
 
   display: none;
   width: 143px;
@@ -457,6 +458,7 @@ input:not([type='radio']):focus {
   position: absolute;
   top: 36px;
   right: 0;
+  z-index: 30;
 
   display: none;
   padding: 15px;
@@ -1733,7 +1735,7 @@ input:not([type='radio']):focus {
   background: rgba(252, 252, 252, 0.19);
   border: 2px solid #ffffff;
   box-shadow: none;
-}
+} /*убрать границу, скорректировать размеры*/
 
 .filter-btn:hover {
   color: #363636;
